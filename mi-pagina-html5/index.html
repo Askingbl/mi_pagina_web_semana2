@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Página HTML5</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Bienvenidos a Mi Página Web</h1>
+        <nav>
+            <ul>
+                <li><a href="#seccion1">Inicio</a></li>
+                <li><a href="#seccion2">Galería</a></li>
+                <li><a href="#seccion3">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="seccion1">
+            <h2>Sobre mí</h2>
+            <p>Soy un estudiante apasionado por la tecnología. <strong>Me encanta programar</strong> y <em>crear sitios web creativos</em>.</p>
+        </section>
+
+        <section id="seccion2">
+            <h2>Multimedia</h2>
+            <article>
+                <h3>Imagen destacada</h3>
+                <img src="assets/img/imagen1.jpg" alt="Descripción de la imagen" width="300">
+            </article>
+            <article>
+                <h3>Video educativo</h3>
+                <video controls width="300">
+                    <source src="assets/video/video1.mp4" type="video/mp4">
+                    Tu navegador no soporta video HTML5.
+                </video>
+            </article>
+        </section>
+
+        <section id="listas">
+            <h2>Listas útiles</h2>
+            <h3>Lista ordenada</h3>
+            <ol>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ol>
+            <h3>Lista desordenada</h3>
+            <ul>
+                <li>Computadora</li>
+                <li>Internet</li>
+                <li>Creatividad</li>
+            </ul>
+        </section>
+
+        <section id="tabla">
+            <h2>Tabla de ejemplo</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Edad</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ana</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td>Carlos</td>
+                        <td>22</td>
+                    </tr>
+                    <tr>
+                        <td>Lucía</td>
+                        <td>19</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="formulario">
+            <h2>Formulario de contacto</h2>
+            <form>
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre"><br><br>
+
+                <label for="correo">Correo:</label><br>
+                <input type="email" id="correo" name="correo"><br><br>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <section id="enlace">
+            <h2>Más información</h2>
+            <a href="https://www.w3schools.com" target="_blank">Visita W3Schools</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Carlos. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
